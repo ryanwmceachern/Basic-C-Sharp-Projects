@@ -15,14 +15,21 @@ namespace PriceQuoteApplication
             //The user must then be prompted for the package weight
             Console.WriteLine("Please enter package weight:");
             string weight = Console.ReadLine();
-
+            
             int weight1 = Convert.ToInt32(weight);
 
             //If the weight is greater than 50, display the error message
             string weight2 = weight1 > 50 ? "Package too heavy to be shipped via Package Express. Have a good day." : "Your package meets the weight requirement, let's continue.";
             Console.WriteLine(weight2);
+            Console.ReadLine();
+            if (weight1 > 50)
+            {
+                Environment.Exit(0);
+            }    
+                    
 
             Console.WriteLine("Please enter package width:");
+            
             string width = Console.ReadLine();
 
             Console.WriteLine("Please enter package height:");
