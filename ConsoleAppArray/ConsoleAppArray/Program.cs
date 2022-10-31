@@ -12,6 +12,13 @@ namespace ConsoleAppArray
         {
 
             {
+                //Create a list of strings
+                Console.WriteLine("Select an index from 0 to 3.");
+                List<string> list1 = new List<string>() { "Toyota", "Mazda", "Ford", "Dodge" };
+                int list2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("The value of the selected index is: " + list1[list2]);
+                Console.ReadLine();
+
                 //create a one-dimensional Array of strings. 
 
                 Console.WriteLine("Select an index from 0 to 4.");
@@ -40,13 +47,8 @@ namespace ConsoleAppArray
 
                     Console.ReadLine();
 
-                    //Create a list of strings
+                   
 
-                    Console.WriteLine("Select an index from 0 to 3.");
-                    List<string> list1 = new List<string>() { "Toyota", "Mazda", "Ford", "Dodge" };
-                    int list2 = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("The value of the selected index is: " + list1[list2]);
-                    Console.ReadLine();
 
                 }
 
