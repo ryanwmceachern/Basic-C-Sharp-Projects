@@ -10,18 +10,18 @@ namespace ConsoleAppAssignment
         {
             static void Main()
             {
-            //pt 1
-                string[] words = { "this", "is", "a", "word", "String", };
+            ////pt 1
+            //    string[] word = { "this", "is", "a", "word", "String", };
 
-            Console.WriteLine("please input some text below");
-            string input5 = Console.ReadLine();
+            //Console.WriteLine("please input some text below");
+            //string input = Console.ReadLine();
 
-            for (int i = 0; i <= 4; i++)
-            {
-                Console.WriteLine(words + input5);
-                Console.ReadLine();
+            //for (int i = 0; i <= 4; i++)
+            //{
+            //    Console.WriteLine(word + input);
+            //    Console.ReadLine();
 
-            }
+            //}
             //pt2
             //// this is a infinite loop
             //for (int a = 0; a < 50; a--)
@@ -49,16 +49,16 @@ namespace ConsoleAppAssignment
             //}
 
             //pt 4
-            //List<string> things = new List<string>() { "cat", "truck", "fan", "book", "smart", "car", "rock" };
+            //List<string> list2 = new List<string>() { "cat", "truck", "fan", "book", "smart", "car", "rock" };
             //Console.WriteLine("Please choose a word in the list");
 
 
-            //Console.WriteLine(string.Join(", ", things));
-            //string input = Console.ReadLine().ToLower();
+            //Console.WriteLine(string.Join(", ", list2));
+            //string input2 = Console.ReadLine().ToLower();
 
-            //if (things.Contains(input))
+            //if (list2.Contains(input2))
             //{
-            //    Console.WriteLine(input + " is on the list");
+            //    Console.WriteLine(input2 + " is on the list");
             //}
 
             //else
@@ -71,15 +71,15 @@ namespace ConsoleAppAssignment
 
 
             //pt 5
-            //List<string> things2 = new List<string>() { "fan", "feild", "motor", "wheel", "motor", "rim", "tire" };
-            //Console.WriteLine(string.Join(",", things2));
+            //List<string> list3 = new List<string>() { "fan", "feild", "motor", "wheel", "motor", "rim", "tire" };
+            //Console.WriteLine(string.Join(",", list3));
 
             //Console.WriteLine("Select a word from the list");
-            //string input1 = Console.ReadLine().ToLower();
+            //string input3 = Console.ReadLine().ToLower();
 
-            //if (things2.Contains(input1))
+            //if (list3.Contains(input3))
 
-            //    Console.WriteLine(input1 + " is on the list");
+            //    Console.WriteLine(input3 + " is on the list");
 
 
             //else
@@ -91,19 +91,19 @@ namespace ConsoleAppAssignment
 
 
 
-            //pt 6
-            //List<string> things3 = new List<string>() { "tire", "motor", "couch", "wheel", "motor", "rim",
+           //pt 6 
+            //List<string> list4 = new List<string>() { "tire", "motor", "couch", "wheel", "motor", "rim",
             //    "show", "fish", "woof", "loss", "cheese", "random", "house", "fin"  };
 
-            //foreach (string thing in things3)
+            //foreach (string word2 in list4)
             //{
-            //    if (thing == "mouse")
+            //    if (word2 == "motor")
 
-            //        Console.WriteLine(thing + "  this has a duplicate value in this list  ");
+            //        Console.WriteLine(word2 + "  this has a duplicate value in this list  ");
 
-            //    else 
+            //    else
 
-            //        Console.WriteLine(thing + " this is a unique value ");
+            //        Console.WriteLine(word2 + " this is a unique value ");
 
             //}
             //Console.ReadLine();
