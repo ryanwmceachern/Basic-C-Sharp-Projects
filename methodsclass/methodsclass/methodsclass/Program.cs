@@ -13,9 +13,9 @@ namespace methodsclass
         {
             //Asking the user to pick two numbers one that we will add to an equation and one that will stand alone.
             Console.WriteLine("Pick a number");
-            double num1 = Convert.ToDouble(Console.ReadLine());
+            int num1 = (Console.ReadLine());
             Console.WriteLine("\nPick a second number");
-            double num2 = Convert.ToDouble(Console.ReadLine());
+            int num2 = (Console.ReadLine());
 
             
             //calling the math method to achive desired result of only one number being added and leaving the second number stand alone.
