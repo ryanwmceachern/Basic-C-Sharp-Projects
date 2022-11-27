@@ -11,7 +11,7 @@ namespace MethodsAssignment
     internal class Class1
     {
         
-        public double math(double num1, [Optional] double num2)
+        public double math(int num1, [Optional] int num2)
         {
             double totalAmount = num1 + num2 + 25;
             return totalAmount;
