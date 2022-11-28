@@ -21,7 +21,12 @@ namespace methodsclass
             //calling the math method to achive desired result of only one number being added and leaving the second number stand alone.
             mathclass method = new mathclass();
             method.math(num1, num2);
+            
+            //passing in values for parameters
+            method.math(num1: 11, num2: 30);
             Console.ReadLine();
+
+
         }
     }
 }
