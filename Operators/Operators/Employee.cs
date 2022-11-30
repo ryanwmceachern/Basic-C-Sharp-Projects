@@ -20,7 +20,7 @@ namespace Operators
         }
         public static bool operator !=(Employee Obj1, Employee Obj2)
         {
-            return !(Obj1.Id != Obj2.Id);
+            return (Obj1.Id != Obj2.Id);
         }
         
     }
