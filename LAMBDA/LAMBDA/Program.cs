@@ -56,7 +56,7 @@ namespace LAMBDA
 
 
             //Using a lambda expression, make a list of all employees with an Id number greater than 5.
-            List < Employee > newList2 = employees.Where(x => x.ID > 5).ToList(); // used a LAMBDA expression to add all employees with an ID greater than 5 to a new list
+            List < Employee > newList2 = employees.Where(x => x.ID > 5).ToList(); 
 
 
             foreach (Employee employee in newList2)
